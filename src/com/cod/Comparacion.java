@@ -9,6 +9,10 @@ public class Comparacion {
     String ip = "127.0.0.2";
 
     private static Comparacion instance = null;
+/*
+Se crea un get instance que es donde se le van a dar las instancias en el main y
+ mira si ya hay alguna creada si es asi se borra y se crea otra nueva
+ */
 
     public static  Comparacion getInstance(){
         if (instance == null){
