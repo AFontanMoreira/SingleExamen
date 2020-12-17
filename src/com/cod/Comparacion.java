@@ -1,18 +1,27 @@
 package com.cod;
 
 public class Comparacion {
-    String direccion = "";
+    public static String direccion = "";
     String ip = "127.0.0.2";
 
-    Comparacion() {
+    private static Comparacion instance = null;
+
+    public static  Comparacion getInstance(){
+        if (instance == null){
+            instance = new Comparacion();
+        }
         direccion = "anonymous@danielcastelao.org";
+        return instance;
+    }
+    public static  Comparacion getInstance(String direcc){
+        if (instance == null){
+            instance = new Comparacion();
+        }
+        direccion = direcc;
+        return instance;
     }
 
-    Comparacion(String direccion) {
-        this.direccion = direccion;
-    }
-
-    public boolean con() {
+    public boolean diferenciar() {
         if (direccion != "anonymous@danielcastelao.org") {
             return true;
         } else {

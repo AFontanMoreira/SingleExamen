@@ -16,14 +16,15 @@ public class Main {
     }
 
     public static boolean conexion(String direccion) {
-        Comparacion direcc = new Comparacion(direccion);
-        System.out.println("Conectando a " + direcc.ip + ", con el usuario " + direccion);
-        return direcc.con();
+        Comparacion enlace = Comparacion.getInstance(direccion);
+        System.out.println("Conectando a " + enlace.ip + ", con el usuario " + direccion);
+        return enlace.diferenciar();
     }
 
     public static boolean segundaConexion() {
-        Comparacion segundoEnlace = new Comparacion();
+        Comparacion segundoEnlace = Comparacion.getInstance();
+         segundoEnlace = new Comparacion();
         System.out.println("Conectando a " + segundoEnlace.ip + ", con el usuario " + segundoEnlace.direccion);
-        return segundoEnlace.con();
+        return segundoEnlace.diferenciar();
     }
 }
