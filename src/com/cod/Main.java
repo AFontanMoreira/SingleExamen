@@ -24,7 +24,7 @@ public class Main {
     public static boolean segundaConexion() {
         Comparacion segundoEnlace = Comparacion.getInstance();
          segundoEnlace = new Comparacion();
-        System.out.println("Conectando a " + segundoEnlace.ip + ", con el usuario " + segundoEnlace.direccion);
+        System.out.println("Conectando a :" + segundoEnlace.ip + ", con el usuario " + segundoEnlace.direccion);
         return segundoEnlace.diferenciar();
     }
 }

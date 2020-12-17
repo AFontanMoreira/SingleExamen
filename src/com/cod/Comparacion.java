@@ -25,7 +25,7 @@ public class Comparacion {
         if (direccion != "anonymous@danielcastelao.org") {
             return true;
         } else {
-            return false;
+            return false ;
         }
     }
 }
