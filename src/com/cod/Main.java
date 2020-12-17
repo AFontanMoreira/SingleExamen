@@ -1,6 +1,7 @@
 package com.cod;
 
 public class Main {
+    //Hice un cambio de formatos para que el intellij ponga los espacios para que siga la convencion
     public static void main(String[] args) {
         if (conexion("pepe@danielcastelao.org")) {
             System.out.println("Listo");
