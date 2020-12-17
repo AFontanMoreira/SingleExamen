@@ -1,5 +1,8 @@
 package com.cod;
 
+/**
+ * @author Alexander Fontan
+ */
 
 public class Main {
     //Hice un cambio de formatos para que el intellij ponga los espacios para que siga la convencion
