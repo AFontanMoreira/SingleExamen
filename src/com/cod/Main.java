@@ -15,7 +15,7 @@ public class Main {
         }
         ;
     }
-
+    //Aqui modifique los nombres de as clases y los parametros como conexion para que sean mas entendibles y comodos de ver
     public static boolean conexion(String direccion) {
         Comparacion enlace = Comparacion.getInstance(direccion);
         System.out.println("Conectando a " + enlace.ip + ", con el usuario " + direccion);

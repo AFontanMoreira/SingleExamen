@@ -2,6 +2,9 @@ package com.cod;
 
 public class Comparacion {
     //En esta clase tambien estan aplicados los formatos de la main
+    /*Aqui le cambie el nombre de los atributos por unos q me parecian mas adecuados y tambien el nombre de la clase
+     por uno que se entendiese lo que hacia sin tener que leer el codigo
+    */
     public static String direccion = "";
     String ip = "127.0.0.2";
 
