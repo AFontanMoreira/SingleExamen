@@ -8,4 +8,4 @@ e="anonymous@danielcastelao.org"; }
 Auxiliar(String param1){ this.e = param1; }
 
 public boolean con() {
-if (e!="anonymous@danielcastelao.org") { return true; } else {return false;}}}
+if (e!="anonymous@danielcastelao.org") { return true ; } else {return false;}}}
